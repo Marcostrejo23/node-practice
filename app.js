@@ -19,6 +19,9 @@ console.log(logger);
 logger.log("message");
 
 
+const os = require("os");
+var totalMemory = os.totalmem();
+var freeMemory = os.freemem();
 const path = require("path");
 
 const pathObj = path.parse(__filename);
