@@ -12,3 +12,10 @@ console.log(); // global object available throughout node. settimeout
 // global.setTimeout
 
 // console.log(global.message);
+
+
+var logger = require("./logger");
+
+console.log(logger);
+
+logger.log("message");
