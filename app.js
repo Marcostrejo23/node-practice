@@ -1,5 +1,16 @@
 console.log(); // global object available throughout node. settimeout
 
+
+const fs = require("fs");
+
+const files = fs.readdirSync("./", function (err, files) {});
+
+fs.readdir("./", function (err, files) {
+  if (err) console.log("error", err);
+  else console.log("Result", files);
+});
+
+fs.readdir("./");
 // setTimeout(() => {}, timeout);
 
 // clearTimeout();
