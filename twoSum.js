@@ -27,4 +27,19 @@ const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']
 const result = words.filter(word => word.length > 6);
 
 console.log(result);
+
+
+
 // expected output: Array ["exuberant", "destruction", "present"]
+// 0 + 1 + 2 + 3 + 4
+
+const array1 = [1, 2, 3, 4];
+
+const initialValue = 0;
+const sumWithInitial = array1.reduce(
+  (previousValue, currentValue) => previousValue + currentValue,
+  initialValue
+);
+
+console.log(sumWithInitial);
+// expected output: 10
