@@ -9,6 +9,12 @@ function log(message) {
 
 //these are scoped to this module, private. want to use this in app.js
 
-module.exports.log = log;
+// module.exports.log = log;  <- to export it all 
+
+module.exports = log; //this exports only the function 
 
 // module.exports.url = url;
+
+
+//sometimes you only want to export a single function from a module 
+
