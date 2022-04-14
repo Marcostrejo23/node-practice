@@ -1,7 +1,9 @@
-function sayHello(name){
-    console.log('hello '  +  name);
-}
+console.log(); // global object available throughout node. settimeout
 
-// sayHello('Mosh');
+setTimeout(() => {}, timeout);
 
-console.log.window;
+clearTimeout();
+
+setInterval;
+
+clearInterval;
