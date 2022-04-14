@@ -27,3 +27,11 @@ const path = require("path");
 const pathObj = path.parse(__filename);
 
 console.log(pathObj);
+
+
+//template string 
+
+// es6 /2015; ECMA Script 6;
+
+console.log(`Total Memory: ${totalMemory}`);
+console.log(`Free Memory: ${freeMemory}`);
