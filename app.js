@@ -17,3 +17,10 @@ const logger = require("./logger");
 console.log(logger);
 
 logger.log("message");
+
+
+const path = require("path");
+
+const pathObj = path.parse(__filename);
+
+console.log(pathObj);
