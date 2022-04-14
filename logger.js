@@ -1,4 +1,4 @@
-var url = "http://mylogger.io/log";
+const url = "http://mylogger.io/log";
 
 //sending an http request to this url
 
