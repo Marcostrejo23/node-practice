@@ -1,9 +1,14 @@
 console.log(); // global object available throughout node. settimeout
 
-setTimeout(() => {}, timeout);
+// setTimeout(() => {}, timeout);
 
-clearTimeout();
+// clearTimeout();
 
-setInterval;
+// setInterval;
 
-clearInterval;
+// clearInterval;
+//global functions for node.
+// var message ='';
+// global.setTimeout
+
+// console.log(global.message);
